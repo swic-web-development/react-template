@@ -113,7 +113,6 @@ export default [
 
       // React-specific rules
       'react/jsx-boolean-value': ['error', 'always'],
-      'react/jsx-curly-brace-presence': ['error', { props: 'always', children: 'never' }],
       'react/jsx-fragments': ['error', 'syntax'],
       'react/jsx-no-duplicate-props': 'error',
       'react/jsx-no-useless-fragment': 'error',
@@ -132,7 +131,6 @@ export default [
       'react/no-unknown-property': 'error',
       'react/no-unsafe': ['error', { checkAliases: true }],
       'react/prop-types': 'error',
-      'react/react-in-jsx-scope': 'error',
       'react/require-render-return': 'error',
       'react/self-closing-comp': 'error',
       'react/sort-comp': 'error',
