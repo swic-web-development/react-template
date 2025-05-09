@@ -114,7 +114,9 @@ export default [
       // React-specific rules
       'react/jsx-boolean-value': ['error', 'always'],
       'react/jsx-fragments': ['error', 'syntax'],
+      'react/jsx-key': 'error',
       'react/jsx-no-duplicate-props': 'error',
+      'react/jsx-no-undef': 'error',
       'react/jsx-no-useless-fragment': 'error',
       'react/jsx-pascal-case': 'error',
       'react/jsx-uses-react': 0,
@@ -130,7 +132,6 @@ export default [
       'react/no-unescaped-entities': 'error',
       'react/no-unknown-property': 'error',
       'react/no-unsafe': ['error', { checkAliases: true }],
-      'react/prop-types': 'error',
       'react/require-render-return': 'error',
       'react/self-closing-comp': 'error',
       'react/sort-comp': 'error',
