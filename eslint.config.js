@@ -118,6 +118,7 @@ export default [
       'react/jsx-no-duplicate-props': 'error',
       'react/jsx-no-useless-fragment': 'error',
       'react/jsx-pascal-case': 'error',
+      'react/jsx-uses-react': 0,
       'react/no-access-state-in-setstate': 'error',
       'react/no-array-index-key': 'error',
       'react/no-danger': 'error',
